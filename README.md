@@ -18,12 +18,17 @@ Miłosz Munik - Testy jednostkowe
 
 ## Porównanie wyników
 
+### Przykładowy zbiór współrzędnych dla którego porównane zostały wyniki algorytmów:
 
-![Alt text](http://imgur.com/a/EgOEx "Przykładowy zbiór współrzędnych dla którego porównane zostały wyniki algorytmów:")
+![Alt text](http://imgur.com/a/EgOEx)
 
-![Alt text](http://imgur.com/a/G0JaK "Układ współrzędnych uzyskany za pomocą DBSCAN zaimplementowanego przez nas:")
+### Układ współrzędnych uzyskany za pomocą DBSCAN zaimplementowanego przez nas:
 
-![Alt text](http://imgur.com/a/wF4wF "Układ współrzędnych uzyskany za pomocą DBSCAN z scikit-learn:")
+![Alt text](http://imgur.com/a/G0JaK)
+
+### Układ współrzędnych uzyskany za pomocą DBSCAN z scikit-learn:
+
+![Alt text](http://imgur.com/a/wF4wF)
 
 	
 ## Dokumentacja
