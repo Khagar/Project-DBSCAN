@@ -1,6 +1,6 @@
 # Project-DBSCAN
 
-## Opis projektu oraz podział obowiązków
+## Opis projektu, skład zespołu oraz podział obowiązków
 
 Naszym zadaniem było stworzenie własnej implementacji algorytmu DBSCAN oraz porównanie jej z implementacja dostępną w scikit-learnie.
 
@@ -12,7 +12,7 @@ dbscan_self_implementation.py - Tworzy clustery dla przykładowego układu wspó
 
 dbscan_self_implementation_tests.py - Testy jednostkowe wykorzystanych funkcji.
 
-### Podział obowiązków:
+### Skład zespołu oraz podział obowiązków:
 
 Karol Jasina - PM, programista, odpowiedzialny za stworzenie dokumentacji
 
