@@ -6,9 +6,9 @@ Naszym zadaniem było stworzenie własnej implementacji algorytmu DBSCAN oraz po
 
 ### Opis przesłanych plików
 
-dbscan_scikit.py - Tworzy clustery dla przykładowego układu współrzędnych za pomocą algorytmu DBSCAN z biblioteki scikit-learn
+dbscan_scikit.py - Tworzy clustery dla przykładowego układu współrzędnych za pomocą algorytmu DBSCAN z biblioteki scikit-learn.
 
-dbscan_self_implementation.py - Tworzy clustery dla przykładowego układu współrzędnych za pomocą algorytmu DBSCAN zaimplementowanego przez nas
+dbscan_self_implementation.py - Tworzy clustery dla przykładowego układu współrzędnych za pomocą algorytmu DBSCAN zaimplementowanego przez nas.
 
 dbscan_self_implementation_tests.py - Testy jednostkowe wykorzystanych funkcji.
 
