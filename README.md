@@ -34,7 +34,8 @@ Miłosz Munik - Testy jednostkowe
 ![screenshot](http://i.imgur.com/om3PNk6.png)
 
 ### Wnioski
-Porównując oba układy możemy stwierdzić, że wyniki uzyskane za pomocą DBSCAN zaimplementowanego przez nas są niemal identyczne co wyniki algorytmu z biblioteki scikit-learn (
+Porównując oba układy możemy stwierdzić, że wyniki uzyskane za pomocą DBSCAN zaimplementowanego przez nas są niemal identyczne co wyniki algorytmu z biblioteki scikit-learn  4 punkty nie zostały zakwalifikowane do żadnego z clusterow w przypadku naszego algorytmu, natomiast DBSCAN z scikit-learna zakwalifikował je. 
+Czas wykonywania różni się za to drastycznie. Nasza implementacja wykonuje się dość długo (około 3 min) natomiast implementacja z scikit-learna wykonuje się niemal natychmiastowo.
 	
 ## Dokumentacja
 
