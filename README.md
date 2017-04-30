@@ -2,13 +2,15 @@
 
 ## Opis projektu oraz podział obowiązków
 
-	Naszym zadaniem była własna implementacja algorytmu DBSCAN oraz porównanie jej z implementacja dostępną w scikit-learnie.
+Naszym zadaniem była własna implementacja algorytmu DBSCAN oraz porównanie jej z implementacja dostępną w scikit-learnie.
 
 ### Podział obowiązków:
 
-	Karol Jasina - PM, Implementacja algorytmu oraz stworzenie dokumentacji
-	Maciej Tabor - Implementacja algorytmu
-	Miłosz Munik - Testy jednostkowe
+Karol Jasina - PM, Implementacja algorytmu oraz stworzenie dokumentacji
+
+Maciej Tabor - Implementacja algorytmu
+
+Miłosz Munik - Testy jednostkowe
 
 ## Uruchomienie algorytmu
 
@@ -21,15 +23,15 @@
 
 ### Przykładowy zbiór współrzędnych dla którego porównane zostały wyniki algorytmów:
 
-	![screenshot](http://i.imgur.com/ODt4RDY.png)
+![screenshot](http://i.imgur.com/ODt4RDY.png)
 
 ### Układ współrzędnych uzyskany za pomocą DBSCAN zaimplementowanego przez nas:
 
-	![screenshot](http://i.imgur.com/uEKvR6x.png)
+![screenshot](http://i.imgur.com/uEKvR6x.png)
 
 ### Układ współrzędnych uzyskany za pomocą DBSCAN z scikit-learn:
 
-	![screenshot](http://i.imgur.com/om3PNk6.png)
+![screenshot](http://i.imgur.com/om3PNk6.png)
 
 	
 ## Dokumentacja
@@ -44,7 +46,7 @@
 	Returns:	
 	dystans miedzy dwoma punktami
 
-	-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 
 	dbscan_self_implementation.eps_neighborhood(M, p, q, eps)
 
@@ -60,7 +62,7 @@
 	Return False:	
 	w przypadku gdy dystans jest wiekszy od eps
 
-	-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 
 	dbscan_self_implementation.cluster(M, point, eps)
 	Funkcja zwraca tablice z wszystkimi punktami i ktore znajduja sie w sasiedztwie punktu point
@@ -72,7 +74,7 @@
 	Return seeds:	
 	zwraca tablice seeds z punktami znajdujacymi sie w sasiedztwie punktu point__
 
-	-----------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 
 	dbscan_self_implementation.DBSCAN(M, eps, min_points)
 
