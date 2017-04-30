@@ -68,7 +68,7 @@ Czas wykonywania różni się za to drastycznie. Nasza implementacja wykonuje si
 	Parameters:	
 	M – Macierz odleglosci miedzy punktami
 	p – Pierwszy punkt
-	q – drugi punkt
+	q – Drugi punkt
 	eps – maksymalny zasieg sasiedztwa
 	
 	Return True:	
@@ -84,8 +84,8 @@ Czas wykonywania różni się za to drastycznie. Nasza implementacja wykonuje si
 
 	Parameters:
 	M – Macierz odleglosci miedzy punktami
-	point – punkt dla ktorego szukamy punktow w sasiedztwie
-	eps – maksymalny zasieg sasiedztwa
+	point – Punkt dla ktorego szukamy punktow w sasiedztwie
+	eps – Maksymalny zasieg sasiedztwa
 	
 	Return seeds:	
 	zwraca tablice seeds z punktami znajdujacymi sie w sasiedztwie punktu point
@@ -98,7 +98,7 @@ Czas wykonywania różni się za to drastycznie. Nasza implementacja wykonuje si
 
 	Parameters:	
 	M – Macierz odleglosci miedzy punktami
-	eps – maksymalny zasieg sasiedztwa
+	eps – Maksymalny zasieg sasiedztwa
 	min_points – Minimalna liczba punktow aby dany punkt byl CORE punktem
 	
 	Returns:	
