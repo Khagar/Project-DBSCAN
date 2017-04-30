@@ -5,6 +5,7 @@
 Naszym zadaniem była własna implementacja algorytmu DBSCAN oraz porównanie jej z implementacja dostępną w scikit-learnie.
 
 Podział obowiązków:
+
 Karol Jasina - PM, Implementacja algorytmu oraz stworzenie dokumentacji
 Maciej Tabor - Implementacja algorytmu
 Miłosz Munik - Testy jednostkowe
