@@ -33,6 +33,8 @@ Miłosz Munik - Testy jednostkowe
 
 ![screenshot](http://i.imgur.com/om3PNk6.png)
 
+### Wnioski
+Porównując oba układy możemy stwierdzić, że wyniki uzyskane za pomocą DBSCAN zaimplementowanego przez nas są niemal identyczne co wyniki algorytmu z biblioteki scikit-learn (
 	
 ## Dokumentacja
 
