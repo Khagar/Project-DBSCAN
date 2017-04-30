@@ -2,15 +2,23 @@
 
 ## Opis projektu oraz podział obowiązków
 
-Naszym zadaniem była własna implementacja algorytmu DBSCAN oraz porównanie jej z implementacja dostępną w scikit-learnie.
+Naszym zadaniem było stworzenie własnej implementacji algorytmu DBSCAN oraz porównanie jej z implementacja dostępną w scikit-learnie.
+
+### Opis przesłanych plików
+
+dbscan_scikit.py - Tworzy clustery dla przykładowego układu współrzędnych za pomocą algorytmu DBSCAN z biblioteki scikit-learn
+
+dbscan_self_implementation.py - Tworzy clustery dla przykładowego układu współrzędnych za pomocą algorytmu DBSCAN zaimplementowanego przez nas
+
+dbscan_self_implementation_tests.py - Testy jednostkowe wykorzystanych funkcji.
 
 ### Podział obowiązków:
 
-Karol Jasina - PM, Implementacja algorytmu oraz stworzenie dokumentacji
+Karol Jasina - PM, programista, odpowiedzialny za stworzenie dokumentacji
 
-Maciej Tabor - Implementacja algorytmu
+Maciej Tabor - Programista
 
-Miłosz Munik - Testy jednostkowe
+Miłosz Munik - Tester
 
 ## Uruchomienie algorytmu
 
