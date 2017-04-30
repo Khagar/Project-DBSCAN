@@ -48,12 +48,14 @@ Czas wykonywania różni się za to drastycznie. Nasza implementacja wykonuje si
 ## Dokumentacja
 
 	dbscan_self_implementation.distance(M, p, q)
+	
 	Funkcja oblicza dystans miedzy dwoma danymi punktami p i q pobierajac wspolrzedne tych punktow z macierzy M
 
 	Parameters:	
 	M – Macierz odleglosci miedzy punktami
 	p – Pierwszy punkt
 	q – Drugi punkt
+	
 	Returns:	
 	dystans miedzy dwoma punktami
 
@@ -68,6 +70,7 @@ Czas wykonywania różni się za to drastycznie. Nasza implementacja wykonuje si
 	p – Pierwszy punkt
 	q – drugi punkt
 	eps – maksymalny zasieg sasiedztwa
+	
 	Return True:	
 	w przypadku gdy dystans jest mniejszy do eps
 	Return False:	
@@ -76,14 +79,16 @@ Czas wykonywania różni się za to drastycznie. Nasza implementacja wykonuje si
 -----------------------------------------------------------------------------------------------------
 
 	dbscan_self_implementation.cluster(M, point, eps)
-	Funkcja zwraca tablice z wszystkimi punktami i ktore znajduja sie w sasiedztwie punktu point
+	
+	Funkcja zwraca tablice z wszystkimi punktami 'i' ktore znajduja sie w sasiedztwie punktu point
 
-	Parameters:/n
-	M – Macierz odleglosci miedzy punktami__
-	point – punkt dla ktorego szukamy punktow w sasiedztwie__
-	eps – maksymalny zasieg sasiedztwa__
+	Parameters:
+	M – Macierz odleglosci miedzy punktami
+	point – punkt dla ktorego szukamy punktow w sasiedztwie
+	eps – maksymalny zasieg sasiedztwa
+	
 	Return seeds:	
-	zwraca tablice seeds z punktami znajdujacymi sie w sasiedztwie punktu point__
+	zwraca tablice seeds z punktami znajdujacymi sie w sasiedztwie punktu point
 
 -----------------------------------------------------------------------------------------------------
 
@@ -92,9 +97,10 @@ Czas wykonywania różni się za to drastycznie. Nasza implementacja wykonuje si
 	Funkcja uzywajac algorytmu DBSCAN przedstawia na wykresie wszystkie stworzone clustery
 
 	Parameters:	
-	M – Macierz odleglosci miedzy punktami__
-	eps – maksymalny zasieg sasiedztwa__
-	min_points – Minimalna liczba punktow aby dany punkt byl CORE punktem__
+	M – Macierz odleglosci miedzy punktami
+	eps – maksymalny zasieg sasiedztwa
+	min_points – Minimalna liczba punktow aby dany punkt byl CORE punktem
+	
 	Returns:	
 	Zwraca wykres przedstawiajacy wszystkie stworzone clustery. Punkty nie nalezace do zadnego z clusterow sa zaznaczone na czarno, BORDER punkty sa zaznaczone malym zakolorowanym kolem natomiast CORE punkty duzym zakolorwanym kolem
 
