@@ -1,9 +1,5 @@
 # Project-DBSCAN
 
-## Opis projektu, skład zespołu oraz podział obowiązków
-
-Naszym zadaniem było stworzenie własnej implementacji algorytmu DBSCAN oraz porównanie jej z implementacja dostępną w scikit-learnie.
-
 ### Opis przesłanych plików
 
 dbscan_scikit.py - Tworzy clustery dla przykładowego układu współrzędnych za pomocą algorytmu DBSCAN z biblioteki scikit-learn.
