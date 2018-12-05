@@ -12,14 +12,6 @@ dbscan_self_implementation.py - Tworzy clustery dla przykładowego układu wspó
 
 dbscan_self_implementation_tests.py - Testy jednostkowe wykorzystanych funkcji.
 
-### Skład zespołu oraz podział obowiązków:
-
-Karol Jasina - PM, programista, odpowiedzialny za stworzenie dokumentacji
-
-Maciej Tabor - Programista
-
-Miłosz Munik - Tester
-
 ## Uruchomienie algorytmu
 
 	  DBSCAN(M, eps, min_points)
