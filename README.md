@@ -1,8 +1,8 @@
 # Project-DBSCAN
 
 ### Skład zespołu:
-Karol Jasina
-Wioleta Cieślik
+Karol Jasina, 
+Wioleta Cieślik, 
 Bartłomiej Góra
 
 ### Opis przesłanych plików
