@@ -1,5 +1,10 @@
 # Project-DBSCAN
 
+### Skład zespołu:
+Karol Jasina
+Wioleta Cieślik
+Bartłomiej Góra
+
 ### Opis przesłanych plików
 
 dbscan_scikit.py - Tworzy clustery dla przykładowego układu współrzędnych za pomocą algorytmu DBSCAN z biblioteki scikit-learn.
