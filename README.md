@@ -95,5 +95,7 @@ Czas wykonywania różni się za to drastycznie. Nasza implementacja wykonuje si
 	min_points – Minimalna liczba punktow aby dany punkt byl CORE punktem
 	
 	Returns:	
-	Zwraca wykres przedstawiajacy wszystkie stworzone clustery. Punkty nie nalezace do zadnego z clusterow sa zaznaczone na czarno, BORDER punkty sa zaznaczone malym zakolorowanym kolem natomiast CORE punkty duzym zakolorwanym kolem
+	Zwraca wykres przedstawiajacy wszystkie stworzone clustery.
+	Punkty nie nalezace do zadnego z clusterow sa zaznaczone na czarno, 
+	BORDER punkty sa zaznaczone malym zakolorowanym kolem natomiast CORE punkty duzym zakolorwanym kolem
 
